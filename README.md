@@ -31,7 +31,6 @@ The booking app enables users to effortlessly reserve accommodations in differen
 ## Participants
 
 Ahmed Benmouh, Jose Oldemar Chaves Urbina and Victoria Vavulina.
-
 All participants were actively engaged in the development of both the front-end and back-end components.
 
 ## Technology Stack
