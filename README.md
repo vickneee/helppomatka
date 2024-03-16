@@ -90,8 +90,10 @@ By following these instructions, both the frontend and backend servers will be u
 
 Environment Files: Navigate to the backend folder and create a file: .env. Add the following contents to the file:
 
+```env
 MONGO_CONNECTION_STRING=
 JWT_SECRET_KEY=
+```
 
 ## Deployment on Render
 
