@@ -59,8 +59,10 @@ Similarly, download Node.js for your computer from the following link:
 
 Start by cloning the repository to your local machine:
 
+```bash
 git clone https://github.com/vickneee/helppomatka.git
 cd helppomatka
+```
 
 ### Server Setup:
 To quickly set up and run both the frontend and backend servers, follow these steps:
