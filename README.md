@@ -45,7 +45,7 @@ All participants were actively engaged in the development of both the front-end 
 - [Bcrypt](https://www.npmjs.com/package/bcrypt) - Hashing Passwords
 - [PageSpeed Insights](https://pagespeed.web.dev/) - Performance Optimization
 
-## Cloning the Project from GitHub
+## Cloning the Repository
 
 These instructions will get you a copy of the project running on your local machine for development and testing purposes.
 
@@ -57,39 +57,10 @@ Please download Git for your computer from the following link:
 Similarly, download Node.js for your computer from the following link:
 [Node.js Downloads.](https://nodejs.org/en/download/)
 
-### Cloning the Project from GitHub:
+Start by cloning the repository to your local machine:
 
-Follow these steps to clone the project from GitHub:
-
-#### Create a New Folder:
-
-Begin by creating a new empty folder for your project.
-
-#### Navigate to the Folder:
-
-Open your terminal and move to the folder you created:
-
-    cd folder_you_created
-
-#### Clone the Repository:
-
-Clone your GitHub repository into the folder:
-
-    git clone your_github_repository_link
-
-#### Confirm Successful Cloning:
-
-Verify that the cloning process was successful:
-
-    git status
-
-#### Access Cloned Repository:
-
-Enter the directory containing the cloned repository:
-
-    cd name_of_cloned_repository
-
-By following these steps, you'll successfully clone the project from GitHub and set it up in your local environment.
+git clone https://github.com/vickneee/helppomatka.git
+cd helppomatka
 
 ### Server Setup:
 To quickly set up and run both the frontend and backend servers, follow these steps:
@@ -118,9 +89,11 @@ Install dependencies:
 
 Start the backend server:
 
-    npm run dev
+    npm start
 
 By following these instructions, both the frontend and backend servers will be up and running in development mode, allowing you to work on your application seamlessly.
+
+Additionally you need create .env file and database in MongoDB.
 
 ## Deployment on Render
 
