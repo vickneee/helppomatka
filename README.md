@@ -45,9 +45,9 @@ All participants were actively engaged in the development of both the front-end 
 - [Bcrypt](https://www.npmjs.com/package/bcrypt) - Hashing Passwords
 - [PageSpeed Insights](https://pagespeed.web.dev/) - Performance Optimization
 
-## Instructions for GitHub Collaborations
+## Cloning the Project from GitHub
 
-- **GitHub Link**: [View GitHub](https://github.com/Bee4rt/helppomatka)
+- **GitHub Link**: [View GitHub]()
 
 These instructions will get you a copy of the project running on your local machine for development and testing purposes.
 
