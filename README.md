@@ -10,13 +10,6 @@
 </div>
 
 ---
-## Table of Contents
-- [The project demands](#the-project-demands)
-- [Main Feature](#main-feature)
-- [Technology Stack](#technology-stack)
-- [Cloning the project from GitHub](#cloning-the-project-from-github)
-  - [Server Setup](#server-setup)
-- [Deployment](#deployment-on-render)
 
 ## The project demands
 
