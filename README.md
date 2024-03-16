@@ -77,13 +77,17 @@ To quickly set up and run both the frontend and backend servers, follow these st
 ### Backend:
 
 Navigate to the backend directory `cd api`.
+
 Install dependencies: `npm install`.
+
 Start the server: `npm start`.
 
 ### Frontend:
 
 Open a new terminal and navigate to the frontend directory `cd client`.
+
 Install dependencies: `npm install`.
+
 Start the frontend application: `npm run dev`.
 
 ## Deployment on Render
