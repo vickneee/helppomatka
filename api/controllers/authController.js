@@ -42,7 +42,7 @@ export const register = async (req, res, next) => {
       // Processing TOKEN with JWT SECRET KEY
       const token = jwt.sign(
         { id: user._id, isAdmin: user.isAdmin },
-        process.env.JWT
+        process.env.JWT_SECRET_KEY
       );
 
       // Processing ACCESS Token Status

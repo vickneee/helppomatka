@@ -9,7 +9,7 @@ export const verifyToken = (req, res, next) => {
   }
 
   // Processing TOKEN with JWT SECRET KEY
-  jwt.verify(token, process.env.JWT, (err, user) => {
+  jwt.verify(token, process.env.JWT_SECRET_KEY, (err, user) => {
     if (err) return next(createError(403, "Token is not valid!"));
     req.user = user;
     // return next(res.send({
