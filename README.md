@@ -92,7 +92,7 @@ Start the frontend application: `npm run dev`.
 
 ## Deployment on Render
 
-[![Status](https://img.shields.io/badge/render-published-darkgreen.svg)]()
+[![Status](https://img.shields.io/badge/render-unpublished-darkgreen.svg)]()
 
 - **Website Link**: [View Website]()
 
