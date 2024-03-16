@@ -1,0 +1,32 @@
+.h1, h5 {
+    color: #0F5A32;
+}
+
+.lbtn {
+    font-size: 16px;
+    background-color: #0F5A32;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.lbtn:hover {
+    background-color: #167341;
+    translate: 0 0.5px;
+}
+
+form label {
+    color: #0F5A32 !important;
+}
+
+.span-link {
+    color: #0F5A32;
+    font-weight: 600;
+}
+
+.span-link:hover {
+    color: #18683c;
+    text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+.homeContainer {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.homeTitle {
+    width: 100%;
+    max-width: 1024px;
+    font-size: 20px;
+    align-items: center;
+}
+
+@media (max-width: 390px) {
+    .container {
+        margin: 0;
+
+    }
+
+    .homeTitle {
+        margin-top: -50px;
+    }
+
+    .homeTitle-Top {
+        padding-top: 50px !important;
+    }
+
+    .homeTitle-1 {
+        font-size: 1rem;
+    }
+
+}

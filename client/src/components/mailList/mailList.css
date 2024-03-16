@@ -1,0 +1,91 @@
+.main-container {
+    width: 100%;
+    background-color: #0F5A32;
+    color: white;
+    margin-top: 65px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.mail {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group,
+.link-group {
+    width: 70%;
+}
+
+.mailTitle {
+    font-size: 36px;
+}
+
+.mlform-control {
+    background-color: #f9f9f9 !important;
+}
+
+.mlbtn {
+    background-color: #f9f9f9 !important;
+}
+
+.btn:hover {
+    background-color: #78B494 !important;
+    color: white;
+    translate: 0 0.5px;
+}
+
+@media (max-width: 1216px) {
+    .form-group,
+    .link-group {
+        width: 70%;
+    }
+    .mail {
+        margin: 0 30px;
+    }
+}
+
+@media (max-width: 976px) {
+    .form-group,
+    .link-group {
+        width: 70%;
+    }
+    .mail {
+        margin: 0 30px;
+    }
+}
+
+@media (max-width: 776px) {
+    .form-group,
+    .link-group {
+        width: 70%;
+    }
+    .mail {
+        margin: 0 30px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .form-group,
+    .link-group {
+        width: 80%;
+    }
+    .mail {
+        margin: 0 30px;
+    }
+
+    .main-container {
+        margin-top: 30px;
+        margin-bottom: -70px;
+    }
+
+    .mailTitle {
+        font-size: 1.4rem;
+    }
+}
+
