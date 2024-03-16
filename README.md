@@ -13,7 +13,6 @@
 ## Table of Contents
 - [The project demands](#the-project-demands)
 - [Main Feature](#main-feature)
-- [Participants](#participants)
 - [Technology Stack](#technology-stack)
 - [Instructions for GitHub Collaborations](#instructions-for-github-collaborations)
     - [Pre Requirements](#pre-requirements)
@@ -43,15 +42,6 @@
 ## Main Feature
 
 The booking app enables users to effortlessly reserve accommodations in different cities and countries, offering a seamless way to find and book rooms tailored to their travel needs.
-
-## Participants
-| Main Role                        | Name                       |
-|----------------------------------|----------------------------|
-| Scrum Master                     | Ahmed Benmouh              |
-| GitHub Assistant                 | Jose Oldemar Chaves Urbina |
-| Trello Assistant & Documentation | Victoria Vavulina          |
-
-All participants were actively engaged in the development of both the front-end and back-end components.
 
 ## Technology Stack
 - [MongoDB](https://www.mongodb.com/) - Database
