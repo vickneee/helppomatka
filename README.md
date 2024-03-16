@@ -55,6 +55,15 @@ git clone https://github.com/vickneee/helppomatka.git
 cd helppomatka
 ```
 
+## Backend Configuration
+
+Environment Files: Navigate to the backend folder and create a file: .env. Add the following contents to the file:
+
+```env
+MONGO_CONNECTION_STRING=
+JWT_SECRET_KEY=
+```
+
 ### Server Setup:
 To quickly set up and run both the frontend and backend servers, follow these steps:
 
@@ -86,14 +95,7 @@ Start the backend server:
 
 By following these instructions, both the frontend and backend servers will be up and running in development mode, allowing you to work on your application seamlessly.
 
-## Backend Configuration
 
-Environment Files: Navigate to the backend folder and create a file: .env. Add the following contents to the file:
-
-```env
-MONGO_CONNECTION_STRING=
-JWT_SECRET_KEY=
-```
 
 ## Deployment on Render
 
