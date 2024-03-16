@@ -47,8 +47,6 @@ All participants were actively engaged in the development of both the front-end 
 
 ## Cloning the Project from GitHub
 
-- **GitHub Link**: [View GitHub]()
-
 These instructions will get you a copy of the project running on your local machine for development and testing purposes.
 
 ### Pre Requirements:
