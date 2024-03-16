@@ -1,9 +1,9 @@
-import Noresult from './image/not found.gif'
+import NotFound from './image/404-plain.png'
 
 const Empty = () => {
     return (
         <>
-            <img src={Noresult} className="img-fluid" alt="logo"/>
+            <img src={NotFound} className="img-fluid" alt="logo"/>
         </>
     )
 }
