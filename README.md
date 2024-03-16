@@ -77,19 +77,23 @@ To quickly set up and run both the frontend and backend servers, follow these st
 ### Backend:
 
 Navigate to the backend directory `cd api`.
+
 Install dependencies: `npm install`.
+
 Start the server: `npm start`.
 
 ### Frontend:
 
 Open a new terminal and navigate to the frontend directory `cd client`.
+
 Install dependencies: `npm install`.
+
 Start the frontend application: `npm run dev`.
 
 ## Deployment on Render
 
 [![Status](https://img.shields.io/badge/render-published-darkgreen.svg)]()
 
-- **Website Link**: [View Website](https://helppomatka-1.onrender.com/)
+- **Website Link**: [View Website]()
 
 [🔝 Back to the Project demands](#the-project-demands)
