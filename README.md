@@ -64,6 +64,12 @@ MONGO_CONNECTION_STRING=
 JWT_SECRET_KEY=
 ```
 
+## MongoDB Setup
+
+Sign up for an account at MongoDB Atlas.
+Create a new cluster and follow the instructions to set up a new database.
+Once set up, obtain your MongoDB connection string and add it to the MONGODB_CONNECTION_STRING variable in your .env files.
+
 ### Server Setup:
 To quickly set up and run both the frontend and backend servers, follow these steps:
 
@@ -94,8 +100,6 @@ Start the backend server:
     npm start
 
 By following these instructions, both the frontend and backend servers will be up and running in development mode, allowing you to work on your application seamlessly.
-
-
 
 ## Deployment on Render
 
