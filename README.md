@@ -71,13 +71,13 @@ Begin by creating a new empty folder for your project.
 
 Open your terminal and move to the folder you created:
 
-    cd folderYouCreated
+    cd folder_you_created
 
 #### Clone the Repository:
 
 Clone your GitHub repository into the folder:
 
-    git clone yourGitHubRepositoryLink
+    git clone your_github_repository_link
 
 #### Confirm Successful Cloning:
 
@@ -89,7 +89,7 @@ Verify that the cloning process was successful:
 
 Enter the directory containing the cloned repository:
 
-    cd nameOfClonedRepository
+    cd name_of_cloned_repository
 
 By following these steps, you'll successfully clone the project from GitHub and set it up in your local environment.
 
