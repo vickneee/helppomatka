@@ -86,7 +86,12 @@ Start the backend server:
 
 By following these instructions, both the frontend and backend servers will be up and running in development mode, allowing you to work on your application seamlessly.
 
-Additionally you need create .env file and database in MongoDB.
+## Backend Configuration
+
+Environment Files: Navigate to the backend folder and create a file: .env. Add the following contents to the file:
+
+MONGO_CONNECTION_STRING=
+JWT_SECRET_KEY=
 
 ## Deployment on Render
 
