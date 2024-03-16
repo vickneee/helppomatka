@@ -70,36 +70,21 @@ Sign up for an account at MongoDB Atlas.
 Create a new cluster and follow the instructions to set up a new database.
 Once set up, obtain your MongoDB connection string and add it to the MONGODB_CONNECTION_STRING variable in your .env files.
 
-### Server Setup:
+## Running the Application
+
 To quickly set up and run both the frontend and backend servers, follow these steps:
 
-#### For Frontend:
-Navigate to the client directory:
+### Backend:
 
-    cd client
+Navigate to the backend directory `cd api`.
+Install dependencies: `npm install`.
+Start the server: `npm start`.
 
-Install dependencies:
+### Frontend:
 
-    npm install
-
-Start the development server:
-
-    npm run dev
-
-#### For Backend:
-Move to the api directory:
-
-    cd api
-
-Install dependencies:
-
-    npm install
-
-Start the backend server:
-
-    npm start
-
-By following these instructions, both the frontend and backend servers will be up and running in development mode, allowing you to work on your application seamlessly.
+Open a new terminal and navigate to the frontend directory `cd client`.
+Install dependencies: `npm install`.
+Start the frontend application: `npm run dev`.
 
 ## Deployment on Render
 
