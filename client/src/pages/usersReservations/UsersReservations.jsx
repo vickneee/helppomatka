@@ -120,8 +120,8 @@ const UserReservations = () => {
                 </div>
               </div>
               <div>
-                <p className="hotelInfo">Sisäänkirjaus: {checkInFormatted}</p>
-                <p className="hotelInfo">Uloskirjoittautuminen: {checkOutFormatted}</p>
+                <p className="hotelInfo">Sisäänkirjautuminen: {checkInFormatted}</p>
+                <p className="hotelInfo">Uloskirjautuminen: {checkOutFormatted}</p>
               </div>
             </div>
           </div>
