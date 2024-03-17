@@ -104,8 +104,8 @@ const UserReservations = () => {
           new Date(reservation.checkOutDate),
           "dd.MM.yyyy"
         );
-        const checkInFormatted = `${checkInDate} 15.00 hrs`;
-        const checkOutFormatted = `${checkOutDate} 12.00 hrs`;
+        const checkInFormatted = `${checkInDate} kello 12:00`;
+        const checkOutFormatted = `${checkOutDate} kello 12:00`;
 
         return (
           <div key={reservation._id} className="RItem">
@@ -120,8 +120,8 @@ const UserReservations = () => {
                 </div>
               </div>
               <div>
-                <p className="hotelInfo">Check in: {checkInFormatted}</p>
-                <p className="hotelInfo">Check out: {checkOutFormatted}</p>
+                <p className="hotelInfo">Sisäänkirjaus: {checkInFormatted}</p>
+                <p className="hotelInfo">Uloskirjoittautuminen: {checkOutFormatted}</p>
               </div>
             </div>
           </div>
