@@ -68,7 +68,7 @@ JWT_SECRET_KEY=
 
 Sign up for an account at MongoDB Atlas.
 Create a new cluster and follow the instructions to set up a new database.
-Once set up, obtain your MongoDB connection string and add it to the MONGODB_CONNECTION_STRING variable in your .env files.
+Once set up, obtain your MongoDB connection string and add it to the MONGODB_CONNECTION_STRING= variable in your .env files.
 
 ## Jwt Secret Key
 
