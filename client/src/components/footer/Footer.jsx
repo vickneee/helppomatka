@@ -8,7 +8,7 @@ const Footer = () => {
         <ul className="nav justify-content-center border-bottom pb-3 mb-3">
           <li className="nav-item">
             <Link to="/" class="nav-link px-2">
-              Etusivu
+              Kotisivu
             </Link>
           </li>
           <li className="nav-item">
