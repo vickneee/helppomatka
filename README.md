@@ -78,7 +78,7 @@ JWT_SECRET_KEY= Any long, random string will serve for this. Look up "secret key
 
 To quickly set up and run both the frontend and backend servers, follow these steps:
 
-### Backend:
+### Api = Backend:
 
 Navigate to the backend directory `cd api`.
 
@@ -86,7 +86,7 @@ Install dependencies: `npm install`.
 
 Start the server: `npm start`.
 
-### Frontend:
+### Client = Frontend:
 
 Open a new terminal and navigate to the frontend directory `cd client`.
 
