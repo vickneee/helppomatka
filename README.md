@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="./client/public/images/favicon-16x16.png" alt="Project logo"></a>
+ <img src="./client/public/images/favicon-32x32.png" alt="Project logo"></a>
 </p>
 
 <div align="center">
