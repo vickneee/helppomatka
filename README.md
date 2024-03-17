@@ -72,7 +72,7 @@ Once set up, obtain your MongoDB connection string and add it to the MONGODB_CON
 
 ## Jwt Secret Key
 
-JWT_SECRET_KEY = This just needs to be any long, random string. You can google "secret key generator".
+JWT_SECRET_KEY = Any long, random string will serve for this. Look up "secret key generator" on Google.
 
 ## Running the Application
 
