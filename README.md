@@ -70,6 +70,10 @@ Sign up for an account at MongoDB Atlas.
 Create a new cluster and follow the instructions to set up a new database.
 Once set up, obtain your MongoDB connection string and add it to the MONGODB_CONNECTION_STRING variable in your .env files.
 
+## JWT_SECRET_KEY
+
+This just needs to be any long, random string. You can google "secret key generator".
+
 ## Running the Application
 
 To quickly set up and run both the frontend and backend servers, follow these steps:
