@@ -110,8 +110,8 @@ const MyReservations = () => {
 						<div className="box-2">
 							<span
 								className="hotelInfo">Varattu: {new Date(reservation.createdAt).toLocaleDateString('fi-FI')}</span>
-							<p className="hotelInfo">Sisäänkirjautuminen: {checkInFormatted}</p>
-							<p className="hotelInfo">Uloskirjautuminen: {checkOutFormatted}</p>
+							<p className="hotelInfo-2">Sisäänkirjautuminen: {checkInFormatted}</p>
+							<p className="hotelInfo-2">Uloskirjautuminen: {checkOutFormatted}</p>
 						</div>
 					</div>
 				</div>
