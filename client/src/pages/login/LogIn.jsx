@@ -6,6 +6,7 @@ import {ToastContainer, toast} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./../../pages/login/logIn.css"
 import Navbar from "../../components/navbar/Navbar.jsx";
+import LoginImage from "./images/loginpage.png";
 
 // User or Admin LogIn
 const Login = () => {
@@ -71,8 +72,8 @@ const Login = () => {
                             <div className="row g-0">
                                 <div className="col-md-6 col-lg-6 d-none d-md-block">
                                     <img
-                                        src="https://images.pexels.com/photos/3889843/pexels-photo-3889843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                        alt="login form"
+                                        src={LoginImage}
+                                        alt="Login form and Image"
                                         className="img-fluid img-mdb"
                                     />
                                 </div>
