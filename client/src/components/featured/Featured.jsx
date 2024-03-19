@@ -1,6 +1,10 @@
 import useFetch from "../../services/useFetch.js";
 import { useNavigate } from "react-router-dom";
 import "./featured.css";
+import Helsinki from "./images/helsinki.png";
+import Morokko from "./images/morokko.png";
+import Tallinn from "./images/tallinn.png";
+import CostaRica from "./images/costarica.png";
 
 const Featured = () => {
   const { data, loading } = useFetch(
@@ -35,8 +39,8 @@ const Featured = () => {
                 }}
               >
                 <img
-                  src="https://images.unsplash.com/photo-1557261651-a6beab93541f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt=""
+                  src={Helsinki}
+                  alt="Helsinki city"
                   className="featuredImg img-fluid"
                 />
                 <div className="featuredTitles">
@@ -56,8 +60,8 @@ const Featured = () => {
                 }}
               >
                 <img
-                  src="https://images.pexels.com/photos/2404046/pexels-photo-2404046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                  alt=""
+                  src={Morokko}
+                  alt="Morokko city"
                   className="featuredImg img-fluid"
                 />
                 <div className="featuredTitles">
@@ -76,8 +80,8 @@ const Featured = () => {
                 }}
               >
                 <img
-                  src="https://images.unsplash.com/photo-1561449306-42d9b4bd16c7?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt=""
+                  src={Tallinn}
+                  alt="Tallinna city"
                   className="featuredImg img-fluid"
                 />
                 <div className="featuredTitles">
@@ -96,8 +100,8 @@ const Featured = () => {
                 }}
               >
                 <img
-                  src="https://images.unsplash.com/photo-1552980870-139c7b393f0c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  alt=""
+                  src={CostaRica}
+                  alt="Costa Rica beach"
                   className="featuredImg img-fluid"
                 />
                 <div className="featuredTitles">
