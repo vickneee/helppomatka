@@ -88,7 +88,7 @@ const Login = () => {
 											</div>
 											
 											<div className="mb-3">
-												<label htmlFor="passowrd" className="form-label"> Salasana </label> <input
+												<label htmlFor="password" className="form-label"> Salasana </label> <input
 												value={credentials.password} type="password"
 												className="form-control form-control-lg" id="password"
 												onChange={handleChange} placeholder="Salasana" autoComplete="on"/>
