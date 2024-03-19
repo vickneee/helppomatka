@@ -82,6 +82,7 @@ const Register = () => {
                                     placeholder="Käyttäjänimi"
                                     id="username"
                                     name="username"
+                                    autoComplete="on"
                                 />
                                 <label className="mb-2" htmlFor="email">Sähköpostiosoite</label>
                                 <input
@@ -92,6 +93,7 @@ const Register = () => {
                                     placeholder="Sähköpostiosoite"
                                     id="email"
                                     name="email"
+                                    autoComplete="on"
                                 />
                                 <label className="mb-2" htmlFor="password">Salasana</label>
                                 <input
@@ -102,6 +104,7 @@ const Register = () => {
                                     placeholder="Salasana"
                                     id="password"
                                     name="password"
+                                    autoComplete="on"
                                 />
                                 <label className="mb-2" htmlFor="confirmPassword">Vahvista salasana</label>
                                 <input
@@ -112,6 +115,7 @@ const Register = () => {
                                     placeholder="Vahvista salasana"
                                     id="confirmPassword"
                                     name="confirmPassword"
+                                    autoComplete="on"
                                 />
                                 <div className="pt-1 mb-4">
                                     <button className="logInBtn lbtn btn-lg btn-block" type="submit">
