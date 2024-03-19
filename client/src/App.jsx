@@ -4,7 +4,7 @@ import List from "./pages/list/List";
 import Hotel from "./pages/hotel/Hotel";
 import LogIn from "./pages/login/LogIn";
 import Register from "./pages/register/Register";
-import UsersReservations from "./pages/usersReservations/UsersReservations"
+import MyReservations from "./pages/myReservations/MyReservations"
 function App() {
     return (
         <BrowserRouter>
@@ -14,7 +14,7 @@ function App() {
                 <Route path="/register" element={<Register/>}/>
                 <Route path="/hotels" element={<List/>}/>
                 <Route path="/hotels/:id" element={<Hotel/>}/>
-                <Route path="/reservations/myreservations" element={<UsersReservations />} />
+                <Route path="/reservations/myreservations" element={<MyReservations />} />
             </Routes>
         </BrowserRouter>
     )

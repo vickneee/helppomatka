@@ -1,38 +1,24 @@
 import { useEffect, useState } from "react";
-// import { useNavigate } from "react-router-dom";
-// import { useContext } from "react";
-// import { SearchContext } from "../../context/SearchContext";
 import axios from "axios";
-import "./usersReservations.css";
+import "./myReservations.css";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import { format } from "date-fns";
 
-const UserReservations = () => {
+const MyReservations = () => {
   const [reservations, setReservations] = useState([]);
   const [loading, setLoading] = useState(true);
-  // const navigate = useNavigate();
-  // const { dispatch } = useContext(SearchContext);
-  // const [destination, setDestination] = useState("");
-  // const [dates, setDates] = useState([
-  //   {
-  //     startDate: new Date(),
-  //     endDate: new Date(),
-  //     key: "selection",
-  //   },
-  // ]);
-  // const [options, setOptions] = useState({
-  //   adult: 1,
-  //   children: 0,
-  //   room: 1,
-  // });
 
   useEffect(() => {
     const fetchReservations = async () => {
       setLoading(true);
       try {
         const resReservations = await axios.get(
-          "http://localhost:8800/api/reservations/"
+          "http://localhost:8800/api/reservations/myreservations", {
+            headers: {
+              Authorization: `Bearer ${localStorage.getItem('token')}`
+            }
+          }
         );
         const reservationsWithHotelDetails = await Promise.all(
           resReservations.data.map(async (reservation) => {
@@ -64,7 +50,7 @@ const UserReservations = () => {
   if (loading) {
     return (
       <div>
-        <Header type="reservations" />
+        <Header type="list" />
         <div className="d-flex justify-content-center">
           <div className="lds-spinner">
             <div></div>
@@ -95,7 +81,6 @@ const UserReservations = () => {
     <div>
       <Header type="reservations" />
       {reservations.map((reservation) => {
-        // Convertir y formatear las fechas aquí
         const checkInDate = format(
           new Date(reservation.checkInDate),
           "dd.MM.yyyy"
@@ -131,4 +116,4 @@ const UserReservations = () => {
     </div>
   );
 };
-export default UserReservations;
+export default MyReservations;
