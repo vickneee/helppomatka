@@ -11,6 +11,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import success from "./image/success-svgrepo-com.svg";
 import { format } from "date-fns";
+import {random} from "nanoid";
 
 const updateRoomAvailability = async (roomId, unavailableDates) => {
   try {
@@ -162,7 +163,7 @@ const Reserve = ({ setOpen, hotelId, totalPrice, guestCount }) => {
                   </div>
                   <div className="rSelectRooms">
                     {item.roomNumbers.map((roomNumber) => (
-                      <div className="room">
+                      <div key={roomNumber._id} className="room">
                         <input
                           className="checkbox"
                           type="checkbox"
@@ -205,7 +206,6 @@ const Reserve = ({ setOpen, hotelId, totalPrice, guestCount }) => {
                     setCopy(false);
                   }, 1000);
                 }}
-                s
                 className="bx ms-2 bx-copy tooltips"
               >
                 {copy && <span className="tooltip-text">Copied</span>}
