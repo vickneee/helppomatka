@@ -2,12 +2,19 @@ import useFetch from "../../services/useFetch";
 import "./propertyList.css";
 import {useNavigate} from "react-router-dom";
 
+// Images
+import Image1 from "./images/image-1.png";
+import Image2 from "./images/image-2.png";
+import Image3 from "./images/image-3.png";
+import Image4 from "./images/image-4.png";
+import Image5 from "./images/image-5.png";
+
 const PropertyList = () => {
     const {data, loading} = useFetch("http://localhost:8800/api/hotels/countByType");
 
     const navigate = useNavigate();
 
-    const images = ["https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&w=600", "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", "https://images.pexels.com/photos/1977342/pexels-photo-1977342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",];
+    const images = [Image1, Image2, Image3, Image4, Image5];
 
     const right = () => {
         const right = document.querySelector(".pListMobile");
