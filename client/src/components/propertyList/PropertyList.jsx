@@ -32,12 +32,12 @@ const PropertyList = () => {
                 <div></div>
                 <div></div>
             </div>) : (<>
-                {images.map((img, i) => (<div className="col">
+                {images.map((img, i) => (<div key={i} className="col">
                     <div className="pListItem" onClick={() => {
                         navigate("/hotels", {
                             state: {type: data[i]?.type},
                         });
-                    }} key={i}>
+                    }} >
                         <img src={img} alt="" className="pListImg"/>
                         <div className="pListTitles">
                             <h1>{data[i]?.type}</h1>
