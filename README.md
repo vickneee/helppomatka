@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="./client/public/images/favicon.ico" alt="Project logo"></a>
+ <img src="./client/public/images/android-chrome-192x192.png" alt="Project logo"></a>
 </p>
 
 <div align="center">
@@ -68,7 +68,11 @@ JWT_SECRET_KEY=
 
 Sign up for an account at MongoDB Atlas.
 Create a new cluster and follow the instructions to set up a new database.
-Once set up, obtain your MongoDB connection string and add it to the MONGODB_CONNECTION_STRING variable in your .env files.
+Once set up, obtain your MongoDB connection string and add it to the MONGODB_CONNECTION_STRING= variable in your .env files.
+
+## Jwt Secret Key
+
+JWT_SECRET_KEY= Any long, random string will serve for this. Look up "secret key generator" on Google.
 
 ## Running the Application
 
