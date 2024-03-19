@@ -52,7 +52,7 @@ const Login = () => {
                 credentials
             );
             dispatch({type: "LOGIN_SUCCESS", payload: res.data.details});
-            localStorage.setItem("user", res.data.details);
+            localStorage.setItem("token", res.data.token); // Store the token in local storage
             notify();
             setTimeout(delay, 2000);
         } catch (err) {
