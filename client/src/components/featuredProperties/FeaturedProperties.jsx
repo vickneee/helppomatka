@@ -27,8 +27,8 @@ const FeaturedProperties = () => {
         ) : (
           <>
             {data.map((item) => (
-              <div className="col-md-6 col-lg-3">
-                <FeaturedItem key={item._id} item={item} />
+              <div key={item._id} className="col-md-6 col-lg-3">
+                <FeaturedItem  item={item} />
               </div>
             ))}
           </>
