@@ -7,27 +7,27 @@ const Footer = () => {
       <footer className="py-3">
         <ul className="nav justify-content-center border-bottom pb-3 mb-3">
           <li className="nav-item">
-            <Link to="/" class="nav-link px-2">
+            <Link to="/" className="nav-link px-2">
               Kotisivu
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" href="#" class="nav-link px-2">
+            <Link to="/" href="#" className="nav-link px-2">
               Asunnot
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" class="nav-link px-2">
+            <Link to="/" className="nav-link px-2">
               Hotellit
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" class="nav-link px-2">
+            <Link to="/" className="nav-link px-2">
               Mökkit
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" class="nav-link px-2">
+            <Link to="/" className="nav-link px-2">
               Huvilat
             </Link>
           </li>
