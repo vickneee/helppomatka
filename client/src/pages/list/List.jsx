@@ -88,7 +88,7 @@ const List = () => {
   }, [options, dispatch]);
 
   const { data, loading } = useFetch(
-    `http://localhost:8800/api/hotels?city=${destination}`
+    `https://helppomatka-backend.onrender.com/api/hotels?city=${destination}`
   );
 
   const handleChange = (event) => {
