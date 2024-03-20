@@ -13,7 +13,7 @@
 
 ## The project demands
 
-Vantaa Vocational College Varia school student project to create a fictional travel agency website with a booking system using the [MERN Stack](https://www.mongodb.com/mern-stack) (MongoDB, Express.js, React.js, and Node.js).
+As a student project at Vantaa Vocational College Varia, we have created a fictional travel agency website with a booking system using the [MERN Stack](https://www.mongodb.com/mern-stack) (MongoDB, Express.js, React.js, and Node.js).
 
 ## Main Feature
 
