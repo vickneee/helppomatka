@@ -38,7 +38,7 @@ const Hotel = () => {
     const [openModal, setOpenModal] = useState(false);
 
     const {images, data, loading} = useFetch(
-        `http://localhost:8800/api/hotels/find/${id}`
+        `https://helppomatka-backend.onrender.com/api/hotels/find/${id}`
     );
 
     const value = data.rating
