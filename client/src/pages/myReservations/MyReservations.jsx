@@ -14,7 +14,7 @@ const MyReservations = () => {
 			setLoading(true);
 			try {
 				const resReservations = await axios.get(
-					"http://localhost:8800/api/reservations/myreservations", {
+					"https://helppomatka-backend.onrender.com/api/reservations/myreservations", {
 						headers: {
 							Authorization: `Bearer ${localStorage.getItem('token')}`
 						}
@@ -23,7 +23,7 @@ const MyReservations = () => {
 				const reservationsWithHotelDetails = await Promise.all(
 					resReservations.data.map(async (reservation) => {
 						const resHotel = await axios.get(
-							`http://localhost:8800/api/hotels/find/${reservation.hotelId}`
+							`https://helppomatka-backend.onrender.com/api/hotels/find/${reservation.hotelId}`
 						);
 						
 						const images = resHotel.data.photos.map((photoUrl) => ({

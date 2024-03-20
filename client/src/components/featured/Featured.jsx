@@ -8,7 +8,7 @@ import CostaRica from "./images/costarica.png";
 
 const Featured = () => {
   const { data, loading } = useFetch(
-    "http://localhost:8800/api/hotels/countByCity?cities=Helsinki,Marrakech,Tallinna,Puerto Viejo"
+    "https://helppomatka-backend.onrender.com/api/hotels/countByCity?cities=Helsinki,Marrakech,Tallinna,Puerto Viejo"
   );
   const navigate = useNavigate();
   return (

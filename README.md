@@ -98,6 +98,26 @@ Start the frontend application: `npm run dev`.
 
 [![Status](https://img.shields.io/badge/render-unpublished-darkgreen.svg)]()
 
-- **Website Link**: [View Website]()
+### Frontend client
+
+- Static page:
+
+**Root Directory:** client
+
+**Build Command:** client/ npm run build
+
+**Publish Directory:** client/ dist
+
+### Backend api
+
+- Web Service:
+
+**Root Directory:** api
+
+**Build Command:** api/ npm install
+
+**Start Command:** api/ npm start 
+
+- **Website Link**: [View Website](https://vickneee-helppomatka.onrender.com/)
 
 [🔝 Back to the Project demands](#the-project-demands)

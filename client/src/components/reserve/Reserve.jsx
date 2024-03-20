@@ -16,7 +16,7 @@ import {random} from "nanoid";
 const updateRoomAvailability = async (roomId, unavailableDates) => {
   try {
     const response = await axios.put(
-      `http://localhost:8800/api/rooms/availability/${roomId}`,
+      `https://helppomatka-backend.onrender.com/api/rooms/availability/${roomId}`,
       {
         unavailableDates,
       }
@@ -31,7 +31,7 @@ const Reserve = ({ setOpen, hotelId, totalPrice, guestCount }) => {
   const { user } = useContext(AuthContext);
   const [selectedRooms, setSelectedRooms] = useState([]);
   const { data, loading } = useFetch(
-    `http://localhost:8800/api/hotels/room/${hotelId}`
+    `https://helppomatka-backend.onrender.com/api/hotels/room/${hotelId}`
   );
   const { dates } = useContext(SearchContext);
   const [modal, setModal] = useState(false);
