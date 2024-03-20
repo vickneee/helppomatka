@@ -10,7 +10,7 @@ import Image4 from "./images/image-4.png";
 import Image5 from "./images/image-5.png";
 
 const PropertyList = () => {
-    const {data, loading} = useFetch("http://localhost:8800/api/hotels/countByType");
+    const {data, loading} = useFetch("https://vickneee-helppomatka.onrender.com/api/hotels/countByType");
 
     const navigate = useNavigate();
 
