@@ -59,6 +59,6 @@ app.use((err, req, res, next) => {
 
 // PORT Listen on ....
 app.listen(8800, () => {
-  connect();
+  connect(); // Connect to MongoDB
   console.log("Connected to backend!");
 });
