@@ -111,7 +111,7 @@ const Reserve = ({ setOpen, hotelId, totalPrice, guestCount }) => {
     try {
       // Trying to create the reservation here.
       const reservationResponse = await axios.post(
-        "http://localhost:8800/api/reservations/",
+        "https://helppomatka-backend.onrender.com/api/reservations/",
         reservationData
       );
       console.log("Success making reservation:", reservationResponse.data);
