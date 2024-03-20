@@ -50,7 +50,7 @@ const Header = ({ type }) => {
   };
 
   return (
-    <div className={type === "list" ? "header otherPages" : "header"}>
+    <div className={type === "list" || type === "reservations" || type === "no-reservations" ? "header otherPages reservations no-reservations" : "header"}>
       <video autoPlay loop muted>
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
