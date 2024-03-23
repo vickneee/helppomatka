@@ -11,7 +11,7 @@
 
 ---
 
-## The project demands
+## The Project Demands
 Using the MERN Stack (MongoDB, Express.js, React.js, and Node.js), we developed a full stack web application as a student project at Vantaa Vocational College Varia that is a fictional travel agency website with a booking system.
 
 ## Main Feature
