@@ -75,14 +75,6 @@ JWT_SECRET_KEY= You can search "secret key generator" on Google.
 
 ## Running the Application
 
-### Backend:
-
-Navigate to the backend directory `cd api`.
-
-Install dependencies: `npm install`.
-
-Start the server: `npm start`.
-
 ### Frontend:
 
 Open a new terminal and navigate to the frontend directory `cd client`.
@@ -90,6 +82,14 @@ Open a new terminal and navigate to the frontend directory `cd client`.
 Install dependencies: `npm install`.
 
 Start the frontend application: `npm run dev`.
+
+### Backend:
+
+Navigate to the backend directory `cd api`.
+
+Install dependencies: `npm install`.
+
+Start the server: `npm start`.
 
 ## Deployment on Render
 
