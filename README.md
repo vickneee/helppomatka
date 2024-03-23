@@ -75,8 +75,6 @@ JWT_SECRET_KEY= You can search "secret key generator" on Google.
 
 ## Running the Application
 
-To quickly set up and run both the frontend and backend servers, follow these steps:
-
 ### Backend:
 
 Navigate to the backend directory `cd api`.
