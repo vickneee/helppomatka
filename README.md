@@ -95,7 +95,7 @@ Start the frontend application: `npm run dev`.
 
 [![Status](https://img.shields.io/badge/render-published-darkgreen.svg)]()
 
-### Frontend client
+### Frontend - client:
 
 - Static page:
 
@@ -105,7 +105,7 @@ Start the frontend application: `npm run dev`.
 
 **Publish Directory:** client/ dist
 
-### Backend api
+### Backend - api:
 
 - Web Service:
 
