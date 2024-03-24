@@ -93,7 +93,7 @@ Start the server: `npm start`.
 
 ## Deployment on Render
 
-[![Status](https://img.shields.io/badge/render-published-darkgreen.svg)]()
+![Status](https://img.shields.io/badge/render-published-darkgreen.svg)
 
 ### Frontend - client:
 
