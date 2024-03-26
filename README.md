@@ -105,6 +105,8 @@ Start the server: `npm start`.
 
 **Publish Directory:** client/ dist
 
+- Add Environment Variables
+
 ### Backend - api:
 
 - Web Service:
@@ -114,6 +116,8 @@ Start the server: `npm start`.
 **Build Command:** api/ npm install
 
 **Start Command:** api/ npm start 
+
+- Add Environment Variables
 
 - **Website Link**: [View Website](https://vickneee-helppomatka.onrender.com/)
 
