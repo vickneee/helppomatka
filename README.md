@@ -122,3 +122,6 @@ Start the server: `npm start`.
 - **Website Link**: [View Website](https://vickneee-helppomatka.onrender.com/)
 
 [🔝 Back to the Project demands](#the-project-demands)
+
+---
+
