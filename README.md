@@ -103,6 +103,8 @@ Start the server: `npm start`.
 
 ![Status](https://img.shields.io/badge/render-published-darkgreen.svg)
 
+**Website Link**: [View Website](https://vickneee-helppomatka.onrender.com/)
+
 ### Frontend - client:
 
 - Static page:
@@ -126,8 +128,6 @@ Start the server: `npm start`.
 **Start Command:** api/ npm start 
 
 **Add** Environment Variables
-
-- **Website Link**: [View Website](https://vickneee-helppomatka.onrender.com/)
 
 [🔝 Back to the Project demands](#the-project-demands)
 
