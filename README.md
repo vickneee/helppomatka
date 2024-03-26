@@ -113,7 +113,7 @@ Start the server: `npm start`.
 
 **Publish Directory:** client/ dist
 
-- Add Environment Variables
+**Add** Environment Variables
 
 ### Backend - api:
 
@@ -125,7 +125,7 @@ Start the server: `npm start`.
 
 **Start Command:** api/ npm start 
 
-- Add Environment Variables
+**Add** Environment Variables
 
 - **Website Link**: [View Website](https://vickneee-helppomatka.onrender.com/)
 
