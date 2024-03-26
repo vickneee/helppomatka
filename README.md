@@ -14,6 +14,14 @@
 ## The Project Demands
 Using the MERN Stack (MongoDB, Express.js, React.js, and Node.js), we developed a full stack web application as a student project at Vantaa Vocational College Varia that is a fictional travel agency website with a booking system.
 
+>## Note on MongoDB Cluster
+
+This application is currently using a shared MongoDB cluster for development environments and low-traffic applications. Shared clusters have some limitations and are not recommended for high-traffic applications. They are also not optimized for performance, which can result in slower response times.
+
+As a result, you may experience a delay when the application is loading pictures, especially at the beginning. This is expected behavior given the current setup and not a bug in the application.
+
+For a production application, it is recommended to use a dedicated MongoDB cluster to ensure optimal performance.
+
 ## Main Feature
 
 The booking app enables users to effortlessly reserve accommodations in different cities and countries, offering a seamless way to find and book rooms tailored to their travel needs.
