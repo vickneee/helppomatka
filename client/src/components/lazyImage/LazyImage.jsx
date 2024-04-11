@@ -30,7 +30,7 @@ const LazyImage = ({ src, alt }) => {
           },
           {
             threshold: 0.01,
-            rootMargin: '75%',
+            rootMargin: '0px',
           }
         );
         observer.observe(imageRef);
