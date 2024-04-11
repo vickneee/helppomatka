@@ -1,7 +1,6 @@
 import useFetch from "../../services/useFetch.js";
 import { useNavigate } from "react-router-dom";
 import "./featured.css";
-import LazyImage from "../lazyImage/LazyImage.jsx";
 import Helsinki from "./images/helsinki.png";
 import Morokko from "./images/morokko.png";
 import Tallinn from "./images/tallinn.png";
@@ -38,7 +37,7 @@ const Featured = () => {
                   });
                 }}
               >
-                <LazyImage
+                <img
                   src={Helsinki}
                   alt="Helsinki city"
                   className="featuredImg img-fluid"
@@ -59,7 +58,7 @@ const Featured = () => {
                   });
                 }}
               >
-                <LazyImage
+                <img
                   src={Morokko}
                   alt="Morokko city"
                   className="featuredImg img-fluid"
@@ -79,7 +78,7 @@ const Featured = () => {
                   });
                 }}
               >
-                <LazyImage
+                <img
                   src={Tallinn}
                   alt="Tallinna city"
                   className="featuredImg img-fluid"
@@ -99,7 +98,7 @@ const Featured = () => {
                   });
                 }}
               >
-                <LazyImage
+                <img
                   src={CostaRica}
                   alt="Costa Rica beach"
                   className="featuredImg img-fluid"
