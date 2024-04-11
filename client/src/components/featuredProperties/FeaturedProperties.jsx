@@ -1,7 +1,6 @@
 import useFetch from "../../services/useFetch";
 import "./featuredProperties.css";
 import FeaturedItem from "./FeaturedItem";
-import LazyImage from "../lazyImage/LazyImage.jsx";
 
 const FeaturedProperties = () => {
   const { data, loading } = useFetch(
