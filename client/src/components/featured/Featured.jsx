@@ -1,6 +1,7 @@
 import useFetch from "../../services/useFetch.js";
 import { useNavigate } from "react-router-dom";
 import "./featured.css";
+import LazyImage from "../lazyImage/LazyImage.jsx";
 import Helsinki from "./images/helsinki.png";
 import Morokko from "./images/morokko.png";
 import Tallinn from "./images/tallinn.png";
@@ -31,14 +32,13 @@ const Featured = () => {
             <div className="col-md-6 col-lg-3 col-6">
               <div
                 className="featuredItem"
-
                 onClick={() => {
                   navigate("/hotels", {
                     state: { destination: "Helsinki"  },
                   });
                 }}
               >
-                <img
+                <LazyImage
                   src={Helsinki}
                   alt="Helsinki city"
                   className="featuredImg img-fluid"
@@ -59,7 +59,7 @@ const Featured = () => {
                   });
                 }}
               >
-                <img
+                <LazyImage
                   src={Morokko}
                   alt="Morokko city"
                   className="featuredImg img-fluid"
@@ -79,7 +79,7 @@ const Featured = () => {
                   });
                 }}
               >
-                <img
+                <LazyImage
                   src={Tallinn}
                   alt="Tallinna city"
                   className="featuredImg img-fluid"
@@ -99,7 +99,7 @@ const Featured = () => {
                   });
                 }}
               >
-                <img
+                <LazyImage
                   src={CostaRica}
                   alt="Costa Rica beach"
                   className="featuredImg img-fluid"

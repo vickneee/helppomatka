@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Box from "@mui/material/Box";
 import { Rating } from "@mui/material";
 import StarIcon from "@mui/icons-material/Star";
+import LazyImage from "../lazyImage/LazyImage.jsx";
 
 const FeaturedItem = (props) => {
 const navigate = useNavigate();
@@ -28,7 +29,7 @@ function getLabelText(value) {
       }}
     >
       <div className="fpItem">
-        <img src={props.item.photos[0]} alt="" className="fpImg" />
+        <LazyImage src={props.item.photos[0]} alt="" className="fpImg" />
         <span className="fpName">{props.item.name}</span>
         <span className="fpCity">{props.item.city}</span>
         <span className="fpPrice">

@@ -1,6 +1,7 @@
 import useFetch from "../../services/useFetch";
 import "./propertyList.css";
 import {useNavigate} from "react-router-dom";
+import LazyImage from "../lazyImage/LazyImage.jsx";
 
 // Images
 import Image1 from "./images/image-1.png";
@@ -77,7 +78,7 @@ const PropertyList = () => {
                         state: {type: data[i]?.type},
                     });
                 }} key={i}>
-                    <img src={img} alt="" className="pListImg"/>
+                    <LazyImage src={img} alt="" className="pListImg"/>
 
                     <div className="pListTitles">
                         <h1>{data[i]?.type}</h1>
