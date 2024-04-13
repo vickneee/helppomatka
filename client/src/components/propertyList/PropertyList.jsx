@@ -7,7 +7,7 @@ import Image1 from "./images/image-1.png";
 import Image2 from "./images/image-2.png";
 import Image3 from "./images/image-3.png";
 import Image4 from "./images/image-4.png";
-import Image5 from "./images/image-5.png";
+import Image5 from "./images/image-5.jpeg";
 
 const PropertyList = () => {
     const {data, loading} = useFetch("https://helppomatka-backend.onrender.com/api/hotels/countByType");
