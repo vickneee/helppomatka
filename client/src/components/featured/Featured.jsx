@@ -1,7 +1,7 @@
 import useFetch from "../../services/useFetch.js";
 import { useNavigate } from "react-router-dom";
 import "./featured.css";
-import Helsinki from "./images/helsinki.png";
+import Helsinki from "./images/helsinki.png"
 import Morokko from "./images/morokko.png";
 import Tallinn from "./images/tallinn.png";
 import CostaRica from "./images/costarica.png";
