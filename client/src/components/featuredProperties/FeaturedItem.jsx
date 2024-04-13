@@ -1,25 +1,31 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import Box from "@mui/material/Box";
-import { Rating } from "@mui/material";
+import {Rating} from "@mui/material";
 import StarIcon from "@mui/icons-material/Star";
+import Image1 from "./images/featured-1.png";
+import Image2 from "./images/featured-2.png";
+import Image3 from "./images/featured-3.png";
+import Image4 from "./images/featured-4.png";
+
+const images = [Image1, Image2, Image3, Image4];
 
 const FeaturedItem = (props) => {
-const navigate = useNavigate();
+  const navigate = useNavigate();
   const [value, setValue] = React.useState(props.item.rating);
   const [hover, setHover] = React.useState(-1);
 
-const labels = {
-  1: "Hyödytön+",
-  2: "Huono+",
-  3: "Hyvä",
-  4: "Vaikuttava",
-  5: "Erinomainen+",
-};
+  const labels = {
+    1: "Hyödytön+",
+    2: "Huono+",
+    3: "Hyvä",
+    4: "Vaikuttava",
+    5: "Erinomainen+",
+  };
 
-function getLabelText(value) {
-  return `${value} Star${value !== 1 ? "s" : ""}, ${labels[value]}`;
-}
+  function getLabelText(value) {
+    return `${value} Star${value !== 1 ? "s" : ""}, ${labels[value]}`;
+  }
 
   return (
     <div
@@ -28,7 +34,9 @@ function getLabelText(value) {
       }}
     >
       <div className="fpItem">
-        <img src={props.item.photos[0]} alt="" className="fpImg" />
+        <img src={images[props.index % images.length]} alt={`Image ${props.index % images.length + 1}`}
+             className="fpImg"/>
+
         <span className="fpName">{props.item.name}</span>
         <span className="fpCity">{props.item.city}</span>
         <span className="fpPrice">
@@ -54,12 +62,12 @@ function getLabelText(value) {
                 setHover(newHover);
               }}
               emptyIcon={
-                <StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />
+                <StarIcon style={{opacity: 0.55}} fontSize="inherit"/>
               }
               readOnly
             />
             {value !== null && (
-              <Box sx={{ ml: 2 }}>{labels[hover !== -1 ? hover : value]}</Box>
+              <Box sx={{ml: 2}}>{labels[hover !== -1 ? hover : value]}</Box>
             )}
           </Box>
         )}
