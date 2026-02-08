@@ -1,6 +1,8 @@
 # Helppomatka
 
-## Varia Full-Stack Project
+## Vantaa Vocational College Varia Full-Stack Project
+
+Using the MERN Stack (MongoDB, Express.js, React.js, and Node.js), we developed a Full Stack web application as a student project at Vantaa Vocational College Varia that is a fictional travel agency website with a booking system.
 
 ## Note on MongoDB Cluster
 
@@ -700,4 +702,5 @@ The specific steps might vary based on the technology stack you're using (e.g., 
 Ensure to consult Render's documentation for detailed guides and troubleshooting.
 
 [🔝 Back to the Table of Contents](#table-of-contents)
+
 
