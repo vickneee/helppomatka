@@ -1,15 +1,7 @@
-<p align="center">
-  <a href="" rel="noopener">
- <img src="./client/public/images/android-chrome-192x192.png" alt="Project logo"></a>
-</p>
+# Helppomatka
 
-<div align="center">
+## Varia Full-Stack Project
 
-[![Status](https://img.shields.io/badge/render-published-darkgreen.svg)]()
-
-</div>
-
----
 ## Note on MongoDB Cluster
 
 >This application is currently using a shared MongoDB cluster for development environments and low-traffic applications. Shared clusters have some limitations and are not recommended for high-traffic applications. They are also not optimized for performance, which can result in slower response times.
@@ -708,3 +700,4 @@ The specific steps might vary based on the technology stack you're using (e.g., 
 Ensure to consult Render's documentation for detailed guides and troubleshooting.
 
 [🔝 Back to the Table of Contents](#table-of-contents)
+
